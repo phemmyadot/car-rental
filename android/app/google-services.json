@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "298672060286",
+    "project_id": "carrentalapp-80439",
+    "storage_bucket": "carrentalapp-80439.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298672060286:android:87baf088c67119c6e7a52f",
+        "android_client_info": {
+          "package_name": "com.virych.carRentalApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298672060286-jppmlbfouqu9mabudmn12qehoao627ca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjct_HSS5-9Ccl9GtqmKAdSo4p9k5dJZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298672060286-jppmlbfouqu9mabudmn12qehoao627ca.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "298672060286-6kfsjo3t9f5vn2smmc7sb5kucgcpn6sf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.virych.carRentalApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

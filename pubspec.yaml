@@ -1,0 +1,55 @@
+name: car_rental_app
+description: Test task Rental App.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cloud_firestore: ^2.4.0
+  cupertino_icons: ^1.0.2
+  debounce_throttle: ^2.0.0
+  faker: ^2.0.0
+  flutter_bloc: ^7.1.0
+  flutter_svg: ^0.22.0
+  get_it: ^7.2.0
+  url_launcher: ^6.0.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/svg/
+    - assets/png/
+
+  fonts:
+    - family: Gilroy
+      fonts:
+        - asset: fonts/Gilroy/Gilroy-ExtraBold.otf
+        - asset: fonts/Gilroy/Gilroy-Light.otf
+          style: italic
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins/Poppins-Black.ttf
+        - asset: fonts/Poppins/Poppins-BlackItalic.ttf
+        - asset: fonts/Poppins/Poppins-Bold.ttf
+        - asset: fonts/Poppins/Poppins-BoldItalic.ttf
+        - asset: fonts/Poppins/Poppins-ExtraBold.ttf
+        - asset: fonts/Poppins/Poppins-ExtraBoldItalic.ttf
+        - asset: fonts/Poppins/Poppins-ExtraLight.ttf
+        - asset: fonts/Poppins/Poppins-ExtraLightItalic.ttf
+        - asset: fonts/Poppins/Poppins-Italic.ttf
+        - asset: fonts/Poppins/Poppins-Light.ttf
+        - asset: fonts/Poppins/Poppins-LightItalic.ttf
+        - asset: fonts/Poppins/Poppins-Medium.ttf
+        - asset: fonts/Poppins/Poppins-MediumItalic.ttf
+        - asset: fonts/Poppins/Poppins-Regular.ttf
+        - asset: fonts/Poppins/Poppins-SemiBold.ttf
+        - asset: fonts/Poppins/Poppins-SemiBoldItalic.ttf
+        - asset: fonts/Poppins/Poppins-Thin.ttf
+        - asset: fonts/Poppins/Poppins-ThinItalic.ttf
